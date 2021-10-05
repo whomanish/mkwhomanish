@@ -91,7 +91,7 @@ const About = ({skinColor, switcherColor}) => {
                     <div className="container infos">
                         <div className="row infos-holder align-items-center">
                             <div className="col-12 col-lg-5">
-                                <img className="img-fluid d-block photo" src="public/assests/man.jpg" alt="" />
+                                <img className="img-fluid d-block photo" src={typeof window === 'undefined' || !window.location.origin.includes('localhost') ? 'assests/man.jpg' : 'public/assests/man.jpg'} alt="ManishJhaImage" />
                             </div>
                             <div className="col-12 col-lg-7">
                                 <p className="m-0">
