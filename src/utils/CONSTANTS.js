@@ -315,7 +315,7 @@ export const PORTFOLIO_DETAILS = [
 	{
 		title: 'UPI Fraud Prevention Challenge',
 		category: 'Online Payments',
-		img: 'public/assests/NPCI Challenge.jpeg',
+		img: 'assests/NPCI Challenge.jpeg',
 		details: {
 			Project: 'mobile application',
 			Description: 'Refined the payments flow in the Google Pay app to prevent fraudsters ' +
@@ -328,7 +328,7 @@ export const PORTFOLIO_DETAILS = [
 	{
 		title: 'Goibibo - Microstay | Part-1',
 		category: 'Consumer Internet',
-		img: 'public/assests/Goibibo-1.jpeg',
+		img: 'assests/Goibibo-1.jpeg',
 		details: {
 			Project: 'Product Refinement: Goibibo - Microstay',
 			Description: 'Conducted refinement of Goibibo’s Microstay feature which allows hourly ' +
@@ -342,7 +342,7 @@ export const PORTFOLIO_DETAILS = [
 	{
 		title: 'Goibibo - Microstay | Part-2',
 		category: 'Consumer Internet',
-		img: 'public/assests/Goibibo-2.jpeg',
+		img: 'assests/Goibibo-2.jpeg',
 		details: {
 			Project: 'Product Refinement: Goibibo - Microstay',
 			Description: 'In the second part of the project on Goibibo\'s Microstay feature, ' +
@@ -356,7 +356,7 @@ export const PORTFOLIO_DETAILS = [
 	{
 		title: 'Fitness App - Personas and User Journey Map',
 		category: 'Consumer Internet',
-		img: 'public/assests/Fitness App.jpeg',
+		img: 'assests/Fitness App.jpeg',
 		details: {
 			Project: 'mobile application',
 			Description: 'Conducted market and user research to understand user needs in the fitness ' +
@@ -371,7 +371,7 @@ export const PORTFOLIO_DETAILS = [
 	{
 		title: 'Competitive Analysis - Meru Cabs',
 		category: 'Online Ridesharing',
-		img: 'public/assests/Meru Cabs.jpeg',
+		img: 'assests/Meru Cabs.jpeg',
 		details: {
 			Project: 'Competitive Analysis - Meru Cabs',
 			Description: 'A Competitive of online ride hailing and sharing market to understand the' +
@@ -383,7 +383,7 @@ export const PORTFOLIO_DETAILS = [
 	{
 		title: 'User Research - Furniture Rental',
 		category: 'Consumer Internet',
-		img: 'public/assests/Furniture Rental.jpeg',
+		img: 'assests/Furniture Rental.jpeg',
 		details: {
 			Project: 'Furniture Rental Survey',
 			Description: 'Conducted a survey to understand the needs and demands of user in the furniture rental space'

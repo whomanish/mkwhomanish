@@ -3,10 +3,21 @@ import { connect } from 'react-redux';
 import { Helmet } from 'react-helmet';
 import axios from 'axios';
 import PropTypes from 'prop-types';
+import Fallback from '../../components/Fallback';
 import { BlogWrapper } from './style';
 
 const Blog = ({ skinColor, switcherColor }) => {
     const [blogDetails, setBlogDetails] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        setLoading(true);
+        let timeout = setTimeout(() => setLoading(false), 3000);
+        return () => {
+            setLoading(false);
+            clearTimeout(timeout);
+        };
+    }, []);
     useEffect(() => {
         axios.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@mkwhomanish')
             .then(res => {
@@ -32,55 +43,58 @@ const Blog = ({ skinColor, switcherColor }) => {
         return month[Number(val) + 1];
     };
     return (
-        <BlogWrapper className="section blog-section" id="blog" switcherColor={switcherColor} skinColor={skinColor}>
-            <Helmet>
-                <title>Manish Jha Portfolio | Blog Page</title>
-                <link rel="canonical" href="https://mkwhomanish.netlify.app/blog" />
-            </Helmet>
-            <div id="blog-content">
-                <div className="heading text-left text-md-center">
-                    <h2>
+        <>
+            {loading && <Fallback loading={loading} switcherColor= {switcherColor} /> }
+            <BlogWrapper className="section blog-section" id="blog" switcherColor={switcherColor} skinColor={skinColor}>
+                <Helmet>
+                    <title>Manish Jha Portfolio | Blog Page</title>
+                    <link rel="canonical" href="https://mkwhomanish.netlify.app/blog" />
+                </Helmet>
+                <div id="blog-content">
+                    <div className="heading text-left text-md-center">
+                        <h2>
 						my <span>blog</span>
-                    </h2>
-                </div>
-                <div className="container">
-                    <div className="row">
-                        {
-                            blogDetails.map((val, i) => {
-                                return (
-                                    <div key={i} className="col-12 post-container">
-                                        <div className="post-thumb">
-                                            <a href={val.link} target="_blank" rel="noreferrer" className="d-block">
-                                                <img src={val.thumbnail} className="img-fluid" alt="Blog Post" />
-                                            </a>
-                                        </div>
-                                        <div className="post-content">
-                                            <div className="post-date d-none d-sm-flex">
-                                                <span>{val.pubDate.split(' ')[0].split('-')[2]}</span>
-                                                <span>{mapMonth(val.pubDate.split(' ')[0].split('-')[1])}</span>
-                                                <span>{val.pubDate.split(' ')[0].split('-')[0]}</span>
-                                            </div>
-                                            <div className="entry-header">
-                                                <a href={val.link} target="_blank" rel="noreferrer">{toText(val.title)}</a>
-                                                <p>
-                                                    {/* {val.description} */}
-                                                    {`${'...' + shortenText(toText(val.description), 150, 500) + '...'}`}
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                );
-                            })
-                        }
+                        </h2>
                     </div>
-                    {/* <div className="row" >
+                    <div className="container">
+                        <div className="row">
+                            {
+                                blogDetails.map((val, i) => {
+                                    return (
+                                        <div key={i} className="col-12 post-container">
+                                            <div className="post-thumb">
+                                                <a href={val.link} target="_blank" rel="noreferrer" className="d-block">
+                                                    <img src={val.thumbnail} className="img-fluid" alt="Blog Post" />
+                                                </a>
+                                            </div>
+                                            <div className="post-content">
+                                                <div className="post-date d-none d-sm-flex">
+                                                    <span>{val.pubDate.split(' ')[0].split('-')[2]}</span>
+                                                    <span>{mapMonth(val.pubDate.split(' ')[0].split('-')[1])}</span>
+                                                    <span>{val.pubDate.split(' ')[0].split('-')[0]}</span>
+                                                </div>
+                                                <div className="entry-header">
+                                                    <a href={val.link} target="_blank" rel="noreferrer">{toText(val.title)}</a>
+                                                    <p>
+                                                        {/* {val.description} */}
+                                                        {`${'...' + shortenText(toText(val.description), 150, 500) + '...'}`}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    );
+                                })
+                            }
+                        </div>
+                        {/* <div className="row" >
 						<div className="col-12 text-center">
 							<span className="btn main-btn allposts"><span>load more</span></span>
 						</div>
 					</div> */}
+                    </div>
                 </div>
-            </div>
-        </BlogWrapper>
+            </BlogWrapper>
+        </>
     );
 };
 

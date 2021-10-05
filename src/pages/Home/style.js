@@ -19,9 +19,9 @@ const HomeWrapper = styled.div`
     }
 
     .home-content {
-        // background-image: url("public/assests/bg.jpg");
+        background-image: url(${props => props.path});
         // background-image: url("https://images.unsplash.com/photo-1603803576810-4606cfec1517?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80");
-        background-image: url("public/assests/Website_Wallpaper.jpeg");
+        // background-image: url("public/assests/Website_Wallpaper.jpeg");
         background-size: cover;
         background-position: center;
     }

@@ -134,8 +134,8 @@ const Portfolio = ({ skinColor, switcherColor }) => {
                                             </a>
                                         </div>
                                     </div>
-                                    <img className="original" src={typeof window === undefined || !window.location.origin.includes('localhost') ? previewData.img : previewData.img} style={{ opacity: 1, maxWidth: 'calc(50vw - 0px)', maxHeight: 'calc(100vh - 0px)', transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1)' }} alt={previewData.title} />
-                                    <img className="clone" src={previewData.img} style={{ opacity: 0, width: '315px', height: '429px', top: '-95px', left: '497.5px', transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1)' }} alt={previewData.title} />
+                                    <img className="original" src={typeof window === undefined || !window.location.origin.includes('localhost') ? previewData.img : 'public/'+previewData.img} style={{ opacity: 1, maxWidth: 'calc(50vw - 0px)', maxHeight: 'calc(100vh - 0px)', transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1)' }} alt={previewData.title} />
+                                    <img className="clone" src={typeof window === undefined || !window.location.origin.includes('localhost') ? previewData.img : 'public/'+previewData.img} style={{ opacity: 0, width: '315px', height: '429px', top: '-95px', left: '497.5px', transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1)' }} alt={previewData.title} />
                                 </div>
                             ) : (
 
@@ -149,7 +149,7 @@ const Portfolio = ({ skinColor, switcherColor }) => {
                                         PORTFOLIO_DETAILS.map((val, i) =>
                                             <div key={i} className="grid__item" onMouseMove={(e) => mouseMove(e, val.title, val.category)} onMouseLeave={(e) => mouseLeave(e)} onClick={(e) => previewPage(e, i)}>
                                                 <div className="d-block" data-title={val.title} data-category={val.category}>
-                                                    <img className="img-fluid" src={val.img} alt={val.title} style={{ width: '100%' }} />
+                                                    <img className="img-fluid" src={typeof window === undefined || !window.location.origin.includes('localhost') ? val.img : 'public/'+val.img} alt={val.title} style={{ width: '100%' }} />
                                                     <div className="description description--grid">
                                                         <h3>{val.title}</h3>
                                                         <div className="details">
