@@ -43,7 +43,7 @@ const Home = ({ switcherColor, skinColor }) => {
                                 <div className="hero-section d-flex align-items-center justify-content-center">
                                     <div className="text-center">
                                         <h2>hi ! i’m<span> Manish.</span></h2>
-                                        <p>I architect Digital Magic, a Product Manager based in Bangalore, India .</p>
+                                        <p>I build Customer Delight, a Product Manager based in Bangalore, India .</p>
                                         <div className="buttons">
                                             <Link id="link-about" to="/about" className="btn main-btn link-page"><span>more about me</span></Link>
                                         </div>

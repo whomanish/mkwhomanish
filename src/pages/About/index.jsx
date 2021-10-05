@@ -116,7 +116,7 @@ const About = ({skinColor, switcherColor}) => {
                                     }
                                 </div>
                                 <a className="btn main-btn" target="_blank" rel="noreferrer"
-                                    href="https://drive.google.com/file/d/1Y_yksxV4O-FzKcaCEYXf_1Z6qBzbKEk0/view?usp=sharing"
+                                    href="https://drive.google.com/file/d/1bMkEN8H1UywVhEW_2-Q2e0dX6jNKEQdN/view?usp=sharing"
                                 > <span>download my cv</span></a>
                                 {/* <a href="#" className="btn main-btn"><span>download my cv</span></a> */}
                             </div>

@@ -53,9 +53,21 @@ export const RESUME_DETAILS = {
 	exp: [
 		{
 			title: 'Product Manager',
+			subTitle: 'DLT Apps',
+			time: 'Sep 2021 - Now',
+			description: 'Leading a distributed product team of 11 across India, China and Uk, building a blockchain-based B2B2C funds trading product for the British and Eurropen market'
+		},
+		{
+			title: 'Junior Product Manager',
 			subTitle: 'Infrrd',
-			time: 'Feb 2020 - Now',
-			description: 'Built a B2B SaaS platform and led 0-1 development of 3 features with a combined Revenue of $3M+ since launch'
+			time: 'Feb 2020 - Sep 2021',
+			description: 'Managed a team of 20, built a B2B SaaS platform and led the 0-1 development of 3 features with a combined Revenue of $1M+ since launch'
+		},
+		{
+			title: 'Founder',
+			subTitle: 'GrubRoom',
+			time: 'Mar 2018 - Nov 2018',
+			description: 'Founded and ran a 4 person, revenue positive cloud-kitchen start-up in Bangalore. We brought eastern Indian food to the city while selling exclusively via social media'
 		},
 		{
 			title: 'Product Consultant',
@@ -96,16 +108,16 @@ export const RESUME_DETAILS = {
 			description: 'Design Organisational structure and manage cultural bottlenecks in a rapidly growing Organisation'
 		},
 		{
-			title: 'SAFE 4 Practitioner',
-			subTitle: 'Scaled Agile Inc',
-			time: 'July 2019',
-			description: 'Scaled Agile framework for Enterprise. Make Lean-Agile principles a part of strategic decision making'
-		},
-		{
 			title: 'Product Management Certification Program',
 			subTitle: 'UpGrad',
 			time: 'Nov 2019',
 			description: 'Product Strategy, Roadmapping, Implementation and Iterations. 0-to-1 product development'
+		},
+		{
+			title: 'SAFE 4 Practitioner',
+			subTitle: 'Scaled Agile Inc',
+			time: 'July 2019',
+			description: 'Scaled Agile framework for Enterprise. Make Lean-Agile principles a part of strategic decision making'
 		},
 		{
 			title: 'Salesforce Certified Administrator',
@@ -114,10 +126,22 @@ export const RESUME_DETAILS = {
 			description: 'CRM, Salesforce Administration and Business-Technology Consulting.'
 		},
 		{
+			title: 'Infosys Certified Advanced Business Analyst',
+			subTitle: 'Infosys Ltd.',
+			time: 'May 2019',
+			description: 'Business Requirement Engineering. Project Planning and Feasibility Analysis'
+		},
+		{
+			title: 'Infosys Certified Business Analyst',
+			subTitle: 'Infosys Ltd.',
+			time: 'Sep 2018',
+			description: 'Business Requirement Gathering. Gap Analysis. Key Metrics Benchmarking'
+		},
+		{
 			title: 'Bachelor of Technology in Information Technology',
 			subTitle: 'Maulana Abul Kalam Azad University of Technology',
 			time: 'June 2015',
-			description: 'Software engineering, Operating System, Database Management Systems and Networking'
+			description: 'Software engineering, Operating Systems, Database Management Systems and Networking'
 		}
 	]
 };
@@ -130,20 +154,20 @@ export const OVERALL_DETAILS = [
 		icon: 'Portfolio'
 	},
 	{
-		title: 'Done Projects',
-		number: '56',
+		title: 'Projects',
+		number: '7',
 		icon: 'ThumbsUp'
 	},
 	{
-		title: 'happy customers',
-		number: '89',
+		title: 'Happy Customers',
+		number: '5',
 		icon: 'Heart'
 	}
 ];
 
 export const SKILLS = [
 	{
-		skill: 'PMLC',
+		skill: 'Product Management Life Cycle',
 		percent: '85%'
 	},
 	{
@@ -211,7 +235,7 @@ export const PERSONAL_INFO = [
 
 export const ABOUT_ME = {
 	description: 'I\'m Manish, I’m a product manager in Bangalore.' +
-		'I live and breathe product management, entrepreneurship and technology. ' +
+		'I live \'n breathe products, entrepreneurship and technology. ' +
 		'I\'m deeply interested in design and AI. I find my joy in food and written words.'
 };
 
@@ -399,6 +423,6 @@ export const CONTACT_ERROR = {
 	invalidEmail: 'Invalid email address',
 	subject: '* Subject is required',
 	message: '* Message is a required',
-	success: 'Your Message has been Sent!',
-	error: 'Oops!! some error occurred, please try again'
+	success: 'Thanks for reaching out. I\'ll get back soon.',
+	error: 'Oops!! Something went wrong. Give it another go?'
 };
