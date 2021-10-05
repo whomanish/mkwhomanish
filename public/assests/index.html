@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Manish Jha, Product Manager</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Author: Manish Kumar Jha,
+    I am a Product Manager in Bangalore.">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta http-equiv="cleartype" content="on">
+  <meta name="msapplication-TileColor" content="#333333">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="index">
+
+  <meta name="keywords" content="Product Manager, PM">
+  <meta name="author" content="Manish Jha">
+  <meta property="og:site_name" content="whomanish.github.io">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://mkwhomanish.netlify.app/">
+  <meta property="og:title" content="Nitish Jha Portfolio, React Web App">
+  <meta property="og:description" content="I am a Product Manager in Bangalore.">
+  <meta property="og:image" content="<%= htmlWebpackPlugin.options.title %>assests/man.jpg">
+  <meta property="og:image:width" content="250">
+  <meta property="og:image:height" content="300">
+  <meta property="og:type" content="NitishPortfolioWebsite:page">
+  <meta property="fb:app_id" content="4083721084996783">
+
+  <link rel="apple-touch-icon" sizes="57x57"
+    href="<%= htmlWebpackPlugin.options.title %>assests/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60"
+    href="<%= htmlWebpackPlugin.options.title %>assests/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72"
+    href="<%= htmlWebpackPlugin.options.title %>assests/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76"
+    href="<%= htmlWebpackPlugin.options.title %>assests/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114"
+    href="<%= htmlWebpackPlugin.options.title %>assests/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120"
+    href="<%= htmlWebpackPlugin.options.title %>assests/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144"
+    href="<%= htmlWebpackPlugin.options.title %>assests/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152"
+    href="<%= htmlWebpackPlugin.options.title %>assests/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="<%= htmlWebpackPlugin.options.title %>assests/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"
+    href="<%= htmlWebpackPlugin.options.title %>assests/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="<%= htmlWebpackPlugin.options.title %>assests/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96"
+    href="<%= htmlWebpackPlugin.options.title %>assests/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16"
+    href="<%= htmlWebpackPlugin.options.title %>assests/favicon/favicon-16x16.png">
+  <link rel="manifest" href="<%= htmlWebpackPlugin.options.title %>manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage"
+    content="<%= htmlWebpackPlugin.options.title %>assests/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <div id="root"></div>
+  <!-- <script src="/bundle.js"></script> -->
+  <!-- <script defer src="../dist/main.js"></script> -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register(href = '<%= htmlWebpackPlugin.options.title %>worker.js', { scope: '<%= htmlWebpackPlugin.options.title %>' }).then(function (registration) {
+          console.log('Worker registration successful');
+        }, function (err) {
+          console.log('Worker registration failed');
+        }).catch(function (err) {
+          console.log(err);
+        });
+      });
+    } else {
+      console.log('Service Worker is not supported by browser.');
+    }
+  </script>
+</body>
+
+</html>

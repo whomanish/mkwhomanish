@@ -1,0 +1,138 @@
+.blog-section .post-container {
+    max-width: 850px;
+    margin: 0 auto 93px;
+}
+
+.blog-section .post-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-section .post-thumb a {
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-section .post-thumb a img {
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.blog-section .post-container .post-thumb:hover {
+    cursor: pointer;
+}
+
+.blog-section .post-container:hover .post-thumb img {
+    transform: scale(1.1);
+}
+
+.blog-section .post-date {
+    height: 60px;
+    right: 15px;
+    text-align: center;
+    padding: 6px 10px;
+    border-radius: 4px;
+    flex-direction: column;
+    margin-right: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.blog-section .post-content {
+    background: #f7f7f7;
+    padding: 27px 25px 22px;
+    display: flex;
+}
+
+.blog-section .entry-header a {
+    font-family: "Playfair Display", serif;
+    font-size: 27px;
+    line-height: 27px;
+    margin: 30px 0 9px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.blog-section .entry-header a:hover {
+    color: initial;
+}
+
+.blog-section .entry-header p {
+    margin: 14px 0 0;
+    color: #666;
+}
+
+.blog-section .allposts {
+    margin-bottom: 93px;
+}
+
+.single-post-container {
+    margin-top: 80px !important;
+}
+
+.single-post-container h2 {
+    text-transform: capitalize;
+    font-size: 27px;
+    line-height: 27px;
+    margin: 10px 0 22px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+}
+
+.single-post-container img {
+    margin: 30px 0 25px;
+    border-radius: 5px;
+}
+
+.single-post-container p {
+    color: #666;
+}
+
+.meta {
+    font-size: 13px;
+    border-radius: 5px;
+    background: #f7f7f7;
+}
+
+.meta > span {
+    border-radius: 5px;
+    padding: 12px 14px 5px;
+    margin: 0 7px 7px 0;
+    display: inline-block;
+    position: relative;
+}
+
+.meta > span:not(:last-child):after {
+    position: absolute;
+    right: -7px;
+    height: 15px;
+    width: 1px;
+    content: "";
+    top: 14px;
+    background-color: #ddd;
+}
+
+.meta > span span {
+    font-size: 16px;
+    vertical-align: text-bottom;
+    display: inline-flex;
+    margin-right: 7px;
+}
+
+.link-blog {
+    margin-bottom: 15px;
+    display: block;
+    font-weight: 500;
+}
+
+.link-blog span {
+    font-size: 18px;
+    vertical-align: text-bottom;
+}
+
+.link-blog:hover,
+.link-blog:focus {
+    text-decoration: none !important;
+    color: #212529;
+}
