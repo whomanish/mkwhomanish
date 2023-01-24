@@ -52,6 +52,12 @@ export const RESUME_TAB = {
 export const RESUME_DETAILS = {
 	exp: [
 		{
+			title: 'Senior Product Manager',
+			subTitle: 'Roadzen',
+			time: 'Dec 2021 - Sep 2022',
+			description: 'Managed 3 products, a strategic JV and a team of PMs and APMs. Scaled a product from 1-5x and revamped another. Shipped the MVP of an AI-management B2B SaaS Platform'
+		},	
+		{
 			title: 'Product Manager',
 			subTitle: 'DLT Apps',
 			time: 'Sep 2021 - Now',
