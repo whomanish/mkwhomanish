@@ -60,7 +60,7 @@ export const RESUME_DETAILS = {
 		{
 			title: 'Product Manager',
 			subTitle: 'DLT Apps',
-			time: 'Sep 2021 - Now',
+			time: 'Sep 2021 - Dec 2021',
 			description: 'Leading a distributed product team of 11 across India, China and Uk, building a blockchain-based B2B2C funds trading product for the British and Eurropen market'
 		},
 		{
@@ -101,6 +101,12 @@ export const RESUME_DETAILS = {
 		}
 	],
 	edu: [
+		{
+			title: 'Master of Business Administration',
+			subTitle: 'Lancaster University Management School',
+			time: 'Ongoing',
+			description: 'Strategy, Leadership, Marketing, Finance, Entrepreneurship.'
+		},
 		{
 			title: 'Strategic Management of Innovation',
 			subTitle: 'HEC Paris',
@@ -152,21 +158,20 @@ export const RESUME_DETAILS = {
 	]
 };
 
-
 export const OVERALL_DETAILS = [
 	{
 		title: 'Years Experience',
-		number: '6',
+		number: '7',
 		icon: 'Portfolio'
 	},
 	{
-		title: 'Projects',
-		number: '7',
+		title: 'Products',
+		number: '5',
 		icon: 'ThumbsUp'
 	},
 	{
-		title: 'Happy Customers',
-		number: '5',
+		title: 'Projects',
+		number: '12',
 		icon: 'Heart'
 	}
 ];
@@ -174,11 +179,11 @@ export const OVERALL_DETAILS = [
 export const SKILLS = [
 	{
 		skill: 'Product Management Life Cycle',
-		percent: '85%'
+		percent: '98%'
 	},
 	{
 		skill: 'PM - Strategy & Roadmapping',
-		percent: '80%'
+		percent: '90%'
 	},
 	{
 		skill: 'New Product Development',
@@ -186,11 +191,11 @@ export const SKILLS = [
 	},
 	{
 		skill: 'GTM',
-		percent: '65%'
+		percent: '80%'
 	},
 	{
 		skill: 'Product Validation & Refinement',
-		percent: '75%'
+		percent: '85%'
 	},
 	{
 		skill: 'Design Thinking',
@@ -202,7 +207,7 @@ export const SKILLS = [
 	},
 	{
 		skill: 'Organisational Planning & Management',
-		percent: '50%'
+		percent: '90%'
 	}
 ];
 
@@ -219,17 +224,17 @@ export const PERSONAL_INFO = [
 	},
 	{
 		title: 'Experience',
-		subTitle: '6 years',
+		subTitle: '7 years',
 		icon: 'Settings'
 	},
 	{
 		title: 'Phone',
-		subTitle: '+91 90887 36095',
+		subTitle: '044 7767 960943',
 		icon: 'Phone'
 	},
 	{
 		title: 'Address',
-		subTitle: 'Bengaluru, India',
+		subTitle: 'Lancaster, United Kingdom',
 		icon: 'Location'
 	},
 	{
@@ -240,9 +245,12 @@ export const PERSONAL_INFO = [
 ];
 
 export const ABOUT_ME = {
-	description: 'I\'m Manish, I’m a product manager in Bangalore.' +
-		'I live \'n breathe products, entrepreneurship and technology. ' +
-		'I\'m deeply interested in design and AI. I find my joy in food and written words.'
+	description: 'I\’m an experienced Product Manager based in the UK.' + 
+		'I am currently pursuing a full-time MBA at the Lancaster University Business School.' +
+		'I have spent 7 years building software, of which the last 3 have been in Product Management' +
+		'I live and breathe products, technology and entrepreneurship. ' +
+		'I’m deeply fascinated by AI and the field\'s immense productisation possibilities.' + 
+		'I find my joy in food and written words.'
 };
 
 
@@ -250,7 +258,7 @@ export const ABOUT_ME = {
 
 export const CONTACT_DETAILS = [
 	{
-		title: '+91 90887 36095',
+		title: '044 7767 960943',
 		icon: 'Phone'
 	},
 	{
@@ -258,7 +266,7 @@ export const CONTACT_DETAILS = [
 		icon: 'Contact'
 	},
 	{
-		title: 'Bangalore, India',
+		title: 'Lancaster, United Kingdom',
 		icon: 'Location'
 	}
 ];
@@ -291,7 +299,7 @@ export const SOCIAL_ICONS = [
 export const HOME_CONTACT = {
 	description: 'Let\'s build together',
 	email: 'mkwhomanish@gmail.com',
-	phone: '+91 90887 36095'
+	phone: '044 7767 960943'
 };
 
 /*  BLOG PAGE */
