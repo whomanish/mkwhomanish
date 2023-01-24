@@ -245,11 +245,11 @@ export const PERSONAL_INFO = [
 ];
 
 export const ABOUT_ME = {
-	description: 'I\’m an experienced Product Manager based in the UK.' + 
-		'I am currently pursuing a full-time MBA at the Lancaster University Business School.' +
-		'I have spent 7 years building software, of which the last 3 have been in Product Management' +
+	description: 'I\’m an experienced Product Manager based in the UK. ' + 
+		'I am currently pursuing a full-time MBA at the Lancaster University Business School. ' +
+		'I have spent 7 years building software, of which the last 3 have been in Product Management. ' +
 		'I live and breathe products, technology and entrepreneurship. ' +
-		'I’m deeply fascinated by AI and the field\'s immense productisation possibilities.' + 
+		'I’m deeply fascinated by AI and its immense productisation possibilities. ' + 
 		'I find my joy in food and written words.'
 };
 
@@ -266,7 +266,7 @@ export const CONTACT_DETAILS = [
 		icon: 'Contact'
 	},
 	{
-		title: 'Lancaster, United Kingdom',
+		title: 'United Kingdom',
 		icon: 'Location'
 	}
 ];
