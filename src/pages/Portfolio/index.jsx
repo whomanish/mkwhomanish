@@ -104,7 +104,7 @@ const Portfolio = ({ skinColor, switcherColor }) => {
                 <div id="work-content">
                     <div className="heading text-left text-md-center">
                         <h2>
-                        my <span>case study</span>
+                        my <span>case studies</span>
                         </h2>
                     </div>
                     <div className="portfolio-container">
