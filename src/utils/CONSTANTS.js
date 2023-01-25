@@ -36,7 +36,7 @@ export const SKIN_THEME = {
 export const NAV_MENU = {
 	home: 'Home',
 	about: 'About',
-	work: 'Case Studies',
+	work: 'Case Study',
 	contact: 'Contact',
 	blog: 'Blog'
 };
