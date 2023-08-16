@@ -55,19 +55,19 @@ export const RESUME_DETAILS = {
 			title: 'Senior Product Manager',
 			subTitle: 'Roadzen',
 			time: 'Dec 2021 - Sep 2022',
-			description: 'Managed 3 products, a strategic JV and a team of PMs and APMs. Scaled a product from 1-5x and revamped another. Shipped the MVP of an AI-management B2B SaaS Platform'
+			description: 'Managed 3 Insurtech products, a strategic JV and a team of PMs and APMs. Scaled a product from 1-5x and revamped another. Shipped the MVP of an AI-management B2B SaaS Platform'
 		},	
 		{
 			title: 'Product Manager',
 			subTitle: 'DLT Apps',
 			time: 'Sep 2021 - Dec 2021',
-			description: 'Leading a distributed product team of 11 across India, China and Uk, building a blockchain-based B2B2C funds trading product for the British and Eurropen market'
+			description: 'Managed and shipped the retail user onboarding feature for a blockchain-based B2B2C funds trading platform for the UK and European market'
 		},
 		{
-			title: 'Junior Product Manager',
+			title: 'Product Manager',
 			subTitle: 'Infrrd',
 			time: 'Feb 2020 - Sep 2021',
-			description: 'Managed a team of 20, built a B2B SaaS platform and led the 0-1 development of 3 features with a combined Revenue of $1M+ since launch'
+			description: 'Built a B2B SaaS document processing tool with advanced analytics, document annotation and model management capabilities, boosting the platform ARR by $1M'
 		},
 		{
 			title: 'Founder',
@@ -79,25 +79,25 @@ export const RESUME_DETAILS = {
 			title: 'Product Consultant',
 			subTitle: 'Infosys',
 			time: 'Jul 2019 - Jan 2020',
-			description: 'Built a solution repository of digital tools to mitigate challenges posed by new banking products increasing customer acquisition by 20% YOY'
+			description: 'Built a repository of CRM solutions to accelerate bank digitisation, increasing our customer acquisition by 20% YOY'
 		},
 		{
-			title: 'Product Consultant',
+			title: 'Product Manager',
 			subTitle: 'Infosys',
 			time: 'Mar 2018 - Jun 2019',
-			description: 'Anchored the initiative to productise Salesforce Field Service Lightening to reduce customer onboarding cost by 30% and effort by 55%'
+			description: 'Led the build of a Salesforce-powered logistics app to reduce delivery partner onboarding cost by 30% and effort by 55%'
 		},
 		{
-			title: 'Business Analyst',
+			title: 'Software developer',
 			subTitle: 'Infosys',
 			time: 'Feb 2017 - Feb 2018',
-			description: 'Lead effort to identify the eligible clients of a major financial services firm to comply with US DoL Compliance change wrt. customer risks, reducing future compliance effort by 18%'
+			description: 'Automated client identification for a major US financial services company, reducing their future compliance effort by 18%'
 		},
 		{
-			title: 'Business Analyst',
+			title: 'Software Developer',
 			subTitle: 'Infosys',
-			time: 'Mar 2016 - Jan 2017',
-			description: 'Standardised and redesigned checks issued by different product streams to reduce varieties of check types from 32 to 7 saving $700K annually in check printing and delivery OpEx'
+			time: 'July 2015 - Jan 2017',
+			description: 'Redesigned the check processing system of a major American asset management company to reduce the type of checks issued from 32 to 7, saving $700K PA in printing and delivery costs'
 		}
 	],
 	edu: [
@@ -105,19 +105,7 @@ export const RESUME_DETAILS = {
 			title: 'Master of Business Administration',
 			subTitle: 'Lancaster University Management School',
 			time: 'Ongoing',
-			description: 'Strategy, Leadership, Marketing, Finance, Entrepreneurship.'
-		},
-		{
-			title: 'Strategic Management of Innovation',
-			subTitle: 'HEC Paris',
-			time: 'Aug 2020',
-			description: 'Strategic Decision making about Innovation, product launch and market entry.'
-		},
-		{
-			title: 'Organisational Design and Management',
-			subTitle: 'HEC Paris',
-			time: 'Aug 2020',
-			description: 'Design Organisational structure and manage cultural bottlenecks in a rapidly growing Organisation'
+			description: 'Corporate Strategy, Strategic Brand Management, Entrepreneurship, Finance.'
 		},
 		{
 			title: 'Product Management Certification Program',
@@ -131,6 +119,18 @@ export const RESUME_DETAILS = {
 			time: 'July 2019',
 			description: 'Scaled Agile framework for Enterprise. Make Lean-Agile principles a part of strategic decision making'
 		},
+		{
+			title: 'Strategic Management of Innovation',
+			subTitle: 'HEC Paris',
+			time: 'Aug 2020',
+			description: 'Strategic Decision making about Innovation, product launch and market entry.'
+		},
+		{
+			title: 'Organisational Design and Management',
+			subTitle: 'HEC Paris',
+			time: 'Aug 2020',
+			description: 'Design Organisational structure and manage cultural bottlenecks in a rapidly growing Organisation'
+		},		
 		{
 			title: 'Salesforce Certified Administrator',
 			subTitle: 'Salesforce',
@@ -190,8 +190,8 @@ export const SKILLS = [
 		percent: '95%'
 	},
 	{
-		skill: 'GTM',
-		percent: '80%'
+		skill: 'Product Discovery',
+		percent: '90%'
 	},
 	{
 		skill: 'Product Validation & Refinement',
@@ -202,11 +202,11 @@ export const SKILLS = [
 		percent: '80%'
 	},
 	{
-		skill: 'Data Driven Decision Making',
+		skill: 'GTM',
 		percent: '85%'
 	},
 	{
-		skill: 'Organisational Planning & Management',
+		skill: 'Stakeholder management',
 		percent: '90%'
 	}
 ];
@@ -234,7 +234,7 @@ export const PERSONAL_INFO = [
 	},
 	{
 		title: 'Address',
-		subTitle: 'Lancaster, United Kingdom',
+		subTitle: 'London, United Kingdom',
 		icon: 'Location'
 	},
 	{
@@ -245,12 +245,13 @@ export const PERSONAL_INFO = [
 ];
 
 export const ABOUT_ME = {
-	description: 'I\’m an experienced Product Manager based in the UK. ' + 
-		'I am currently pursuing a full-time MBA at the Lancaster University Business School. ' +
-		'I have spent 7 years building software, of which the last 3 have been in Product Management. ' +
+	description: 'I\’m an experienced Product Manager based in London. ' + 
+		'I have spent over 7 years building software products including B2B SaaS and B2B2C mobile apps. ' +
+		'I have worked across Fintech, Insurtech and core Data Science domains. ' +
+		'I’ve built multiple AI products and am deeply fascinated by the immense productisation opportunity. ' + 
 		'I live and breathe products, technology and entrepreneurship. ' +
-		'I’m deeply fascinated by AI and its immense productisation possibilities. ' + 
-		'I find my joy in food and written words.'
+		'I am currently pursuing a full-time MBA at the Lancaster University Business School. ' +
+		'I find my joy in food, written words and London's museums.'
 };
 
 
@@ -266,7 +267,7 @@ export const CONTACT_DETAILS = [
 		icon: 'Contact'
 	},
 	{
-		title: 'United Kingdom',
+		title: 'London, UK',
 		icon: 'Location'
 	}
 ];
@@ -297,7 +298,7 @@ export const SOCIAL_ICONS = [
 ];
 
 export const HOME_CONTACT = {
-	description: 'Let\'s build together',
+	description: 'Let\'s Build Together',
 	email: 'mkwhomanish@gmail.com',
 	phone: '044 7767 960943'
 };
