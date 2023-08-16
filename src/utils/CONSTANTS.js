@@ -251,7 +251,7 @@ export const ABOUT_ME = {
 		'I’ve built multiple AI products and am deeply fascinated by the immense productisation opportunity. ' + 
 		'I live and breathe products, technology and entrepreneurship. ' +
 		'I am currently pursuing a full-time MBA at the Lancaster University Business School. ' +
-		'I find my joy in food, written words and London's museums.'
+		'I find my joy in food, written words and London\'s museums. '
 };
 
 
