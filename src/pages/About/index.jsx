@@ -99,7 +99,7 @@ const About = ({skinColor, switcherColor}) => {
                                 </p>
                                 <div className="row text-nowrap">
                                     {
-                                        chunk(PERSONAL_INFO, 3).map((arr, i) => 
+                                        chunk(PERSONAL_INFO, 2).map((arr, i) => 
                                             <div key={i} className="d-flex col-12 col-sm-6 personal-list-container personal-list-container-2">
                                                 <ul className="list-unstyled personal-info w-100">
                                                     {
