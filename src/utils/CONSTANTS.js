@@ -212,7 +212,7 @@ export const SKILLS = [
 ];
 
 export const PERSONAL_INFO = [
- 	{
+/* 	{
 		title: 'Birthdate',
 		subTitle: 'October 1991',
 		icon: 'Cake'
@@ -221,7 +221,7 @@ export const PERSONAL_INFO = [
 		title: 'Nationality',
 		subTitle: 'Indian',
 		icon: 'Flag'
-	},
+	}, */
 	{
 		title: 'Experience',
 		subTitle: '7 years',
