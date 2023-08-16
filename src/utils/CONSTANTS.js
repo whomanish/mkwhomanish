@@ -228,14 +228,14 @@ export const PERSONAL_INFO = [
 		icon: 'Settings'
 	},
 	{
-		title: 'Address',
-		subTitle: 'London, United Kingdom',
-		icon: 'Location'
-	},
-	{
 		title: 'Phone',
 		subTitle: '044 7767 960943',
 		icon: 'Phone'
+	},	
+	{
+		title: 'Address',
+		subTitle: 'London, United Kingdom',
+		icon: 'Location'
 	},	
 	{
 		title: 'Email',
