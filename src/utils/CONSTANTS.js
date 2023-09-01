@@ -76,7 +76,7 @@ export const RESUME_DETAILS = {
 			description: 'Founded and ran a 4 person, revenue positive cloud-kitchen start-up in Bangalore. We brought eastern Indian food to the city while selling exclusively via social media'
 		},
 		{
-			title: 'Product Consultant',
+			title: 'Product Manager',
 			subTitle: 'Infosys',
 			time: 'Jul 2019 - Jan 2020',
 			description: 'Built a repository of CRM solutions to accelerate bank digitisation, increasing our customer acquisition by 20% YOY'
@@ -166,7 +166,7 @@ export const OVERALL_DETAILS = [
 	},
 	{
 		title: 'Products',
-		number: '5',
+		number: '4',
 		icon: 'ThumbsUp'
 	},
 	{
@@ -198,7 +198,7 @@ export const SKILLS = [
 		percent: '85%'
 	},
 	{
-		skill: 'Design Thinking',
+		skill: 'Leadership',
 		percent: '80%'
 	},
 	{
@@ -214,7 +214,7 @@ export const SKILLS = [
 export const PERSONAL_INFO = [
 /* 	{
 		title: 'Birthdate',
-		subTitle: 'October 1991',
+		subTitle: 'October 24',
 		icon: 'Cake'
 	},
 	{
@@ -248,8 +248,8 @@ export const ABOUT_ME = {
 	description: 'I\’m an experienced Product Manager based in London. ' + 
 		'I have spent over 7 years building software products including B2B SaaS and B2B2C mobile apps. ' +
 		'I have worked across Fintech, Insurtech and core Data Science domains. ' +
-		'I’ve built multiple AI products and am deeply fascinated by the immense productisation opportunity. ' + 
-		'I live and breathe products, technology and entrepreneurship. ' +
+		'I’ve built multiple AI products and am deeply fascinated by its immense productisation opportunity ' + 
+		'in domains like Insurance, Lending and Wealth Management. ' +
 		'I am currently pursuing a full-time MBA at the Lancaster University Business School. ' +
 		'I find my joy in food, written words and London\'s museums. '
 };
