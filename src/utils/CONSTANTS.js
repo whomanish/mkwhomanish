@@ -250,7 +250,6 @@ export const ABOUT_ME = {
 		'I have worked across Fintech, Insurtech and core Data Science domains. ' +
 		'I’ve built multiple AI products and am deeply fascinated by its immense productisation opportunity ' + 
 		'in domains like Insurance, Lending and Wealth Management. ' +
-		'I am currently pursuing a full-time MBA at the Lancaster University Business School. ' +
 		'I find my joy in food, written words and London\'s museums. '
 };
 
