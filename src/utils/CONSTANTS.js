@@ -104,7 +104,7 @@ export const RESUME_DETAILS = {
 		{
 			title: 'Master of Business Administration',
 			subTitle: 'Lancaster University Management School',
-			time: 'Ongoing',
+			time: 'Sep 2023',
 			description: 'Corporate Strategy, Strategic Brand Management, Entrepreneurship, Finance.'
 		},
 		{
