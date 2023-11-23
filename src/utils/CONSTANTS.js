@@ -307,6 +307,16 @@ export const HOME_CONTACT = {
 
 export const BLOG_DETAILS = [
 	{
+		img: 'https://drive.google.com/file/d/1oUMudOWb4AYA13Ag1zEtqR_GSSLJUkkL/view?usp=sharing',
+		url: 'https://medium.com/@mkwhomanish/ai-product-management-in-startups-24efc2c7e1b9',
+		title: 'AI Product Management in Startups',
+		description: 'Imagine you’re a Product Manager, tasked with developing' +
+			'a groundbreaking AI product. Racing against time and limited by resources,' +
+			'you strive to deliver something exceptional. This scenario is all too common for' +
+			'PMs in the fast-evolving world of AI...',
+		date: '22 NOV \'23'
+	},
+	{
 		img: 'https://drive.google.com/file/d/1waz7BTyyvdGMpDHuehXzfCfMkll0u-WL/view?usp=sharing',
 		url: 'https://medium.com/@mkwhomanish/zomatos-new-ui-lean-is-in-4b73c7ac31ea',
 		title: 'Zomato’s new UI - Lean is In',
