@@ -361,6 +361,18 @@ export const BLOG_DETAILS = [
 
 export const PORTFOLIO_DETAILS = [
 	{
+		title: 'CL Ninja - Job Application Co-pilot',
+		category: 'AI - LLM',
+		img: 'assests/CL Ninja Logo.jpeg',
+		details: {
+			Project: 'Persolanise Cover Letter',
+			Description: 'Personlise your Cover Letters and Application Responses ' +
+				'in 3 steps of less using AI '
+		},
+		link: 'https://drive.google.com/file/d/15cPLcI_N2az6lRTq3vAJjaXMRmXgSRqi/view?usp=sharing',
+
+	},
+	{
 		title: 'UPI Fraud Prevention Challenge',
 		category: 'Online Payments',
 		img: 'assests/NPCI Challenge.jpeg',
