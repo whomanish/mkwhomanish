@@ -382,7 +382,7 @@ export const PORTFOLIO_DETAILS = [
 				' at Asset Management Companies into a scalable and secure data warehouse in the cloud ' +
 				'with smart data management, automated dashboards, advanced analytics and managed access.'
 		},
-		link: 'https://drive.google.com/file/d/1TGjh-mZ9jBr8-h8TVH79p5mRIIg06pqy/view?usp=sharing',
+		link: 'https://drive.google.com/file/d/1DQw28Lrq632TmU5HNGjYaWMkUsDYrL56/view?usp=drive_link',
 
 	},
 	{
