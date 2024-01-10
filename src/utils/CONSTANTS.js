@@ -365,7 +365,7 @@ export const PORTFOLIO_DETAILS = [
 		category: 'AI - LLM',
 		img: 'assests/CL Ninja Logo.jpeg',
 		details: {
-			Project: 'Persolanise Cover Letter',
+			Project: 'Personalise Cover Letter',
 			Description: 'Personlise your Cover Letters and Application Responses ' +
 				'in 3 steps of less using AI '
 		},
@@ -373,11 +373,37 @@ export const PORTFOLIO_DETAILS = [
 
 	},
 	{
+		title: 'Data Analytics SaaS Product Business Case',
+		category: 'Fintech - Alanytics',
+		img: 'assests/Data Transformation.jpeg',
+		details: {
+			Project: 'Data Analytics Transformation',
+			Description: 'A B2B SaaS product to transform the current Excel processes and models ' +
+				' at Asset Management Companies into a scalable and secure data warehouse in the cloud ' +
+				'with smart data management, automated dashboards, advanced analytics and managed access.'
+		},
+		link: 'https://drive.google.com/file/d/1TGjh-mZ9jBr8-h8TVH79p5mRIIg06pqy/view?usp=sharing',
+
+	},
+	{
+		title: 'B2B Lending Marketplace - Broker Management PRD',
+		category: 'Fintech - Lending',
+		img: 'assests/B2B Lending Ecosystem.png',
+		details: {
+			Project: 'Product Pivot and PRD',
+			Description: 'Product Discover and PRD of a B2B lending marketplace product in ' +
+				'the UK for a B2C lending startup planning to enter the B2B space ' +
+				'with a differentiated product'
+		},
+		link: 'https://drive.google.com/file/d/1doKz4S6VSBeOh0wVgnM6hnRTctDJgl9q/view?usp=drive_link',
+
+	},
+	{
 		title: 'UPI Fraud Prevention Challenge',
 		category: 'Online Payments',
 		img: 'assests/NPCI Challenge.jpeg',
 		details: {
-			Project: 'mobile application',
+			Project: 'Mobile Application',
 			Description: 'Refined the payments flow in the Google Pay app to prevent fraudsters ' +
 				'from defrauding users by convincing them to approve a payment request ' +
 				'for receiving money'
