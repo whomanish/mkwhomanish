@@ -235,7 +235,7 @@ export const PERSONAL_INFO = [
 	},
 	{
 		title: 'Phone',
-		subTitle: '044 7767 960943\n+91 9088 736095',
+		subTitle: '044 7767 960943',
 		icon: 'Phone'
 	},	
 	{
@@ -264,7 +264,7 @@ export const ABOUT_ME = {
 
 export const CONTACT_DETAILS = [
 	{
-		title: '044 7767 960943\n+91 9088 736095',
+		title: '044 7767 960943',
 		icon: 'Phone'
 	},
 	{
