@@ -55,7 +55,7 @@ export const RESUME_DETAILS = {
 			title: 'Co-founder & CPO',
 			subTitle: 'Datamagic.ai',
 			time: 'Oct 2023 - Current',
-			description: 'Building an B2B SaaS product to reduce noise at work in data teams and superchare productivity with AI'
+			description: 'Building a B2B SaaS product for Data Teams to reduce noise at work and superchare productivity with AI'
 		},	
 		{
 			title: 'Senior Product Manager',
@@ -235,7 +235,7 @@ export const PERSONAL_INFO = [
 	},
 	{
 		title: 'Phone',
-		subTitle: '044 7767 960943 | +91 9088 736095',
+		subTitle: '044 7767 960943\n+91 9088 736095',
 		icon: 'Phone'
 	},	
 	{
@@ -264,15 +264,15 @@ export const ABOUT_ME = {
 
 export const CONTACT_DETAILS = [
 	{
-		title: '044 7767 960943 | +91 9088 736095',
+		title: '044 7767 960943\n+91 9088 736095',
 		icon: 'Phone'
 	},
 	{
-		title: 'mkwhomanish@gmail.com',
+		title: 'mkwhomanish@gmail.com\n',
 		icon: 'Contact'
 	},
 	{
-		title: 'London, UK',
+		title: 'London, UK\n',
 		icon: 'Location'
 	}
 ];
