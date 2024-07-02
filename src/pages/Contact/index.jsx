@@ -83,7 +83,7 @@ const Contact = ({ skinColor, switcherColor }) => {
                             <div>
                                 <h4 className="mb-0">send me an email</h4>
                                 <p>
-									Feel free to get in touch with me. I am always open to discussing new projects or creative ideas.
+									If you're cooking something with AI, I'd love to hear from you. Get in touch, let's build something magical together.
                                 </p>
                             </div>
                             <div>
