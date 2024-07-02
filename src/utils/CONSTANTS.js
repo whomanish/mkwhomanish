@@ -52,6 +52,12 @@ export const RESUME_TAB = {
 export const RESUME_DETAILS = {
 	exp: [
 		{
+			title: 'Co-founder & CPO',
+			subTitle: 'Datamagic.ai',
+			time: 'Oct 2023 - Current',
+			description: 'Building an B2B SaaS product to reduce noise at work in data teams and superchare productivity with AI'
+		},	
+		{
 			title: 'Senior Product Manager',
 			subTitle: 'Roadzen',
 			time: 'Dec 2021 - Sep 2022',
@@ -108,17 +114,23 @@ export const RESUME_DETAILS = {
 			description: 'Corporate Strategy, Strategic Brand Management, Entrepreneurship, Finance.'
 		},
 		{
+			title: 'Bachelor of Technology in Information Technology',
+			subTitle: 'Maulana Abul Kalam Azad University of Technology',
+			time: 'June 2015',
+			description: 'Software engineering, Operating Systems, Database Management Systems and Networking'
+		},
+		{
 			title: 'Product Management Certification Program',
 			subTitle: 'UpGrad',
 			time: 'Nov 2019',
 			description: 'Product Strategy, Roadmapping, Implementation and Iterations. 0-to-1 product development'
 		},
-		{
+/*		{
 			title: 'SAFE 4 Practitioner',
 			subTitle: 'Scaled Agile Inc',
 			time: 'July 2019',
 			description: 'Scaled Agile framework for Enterprise. Make Lean-Agile principles a part of strategic decision making'
-		},
+		}, */
 		{
 			title: 'Strategic Management of Innovation',
 			subTitle: 'HEC Paris',
@@ -131,7 +143,7 @@ export const RESUME_DETAILS = {
 			time: 'Aug 2020',
 			description: 'Design Organisational structure and manage cultural bottlenecks in a rapidly growing Organisation'
 		},		
-		{
+/*		{
 			title: 'Salesforce Certified Administrator',
 			subTitle: 'Salesforce',
 			time: 'July 2019',
@@ -148,20 +160,14 @@ export const RESUME_DETAILS = {
 			subTitle: 'Infosys Ltd.',
 			time: 'Sep 2018',
 			description: 'Business Requirement Gathering. Gap Analysis. Key Metrics Benchmarking'
-		},
-		{
-			title: 'Bachelor of Technology in Information Technology',
-			subTitle: 'Maulana Abul Kalam Azad University of Technology',
-			time: 'June 2015',
-			description: 'Software engineering, Operating Systems, Database Management Systems and Networking'
-		}
+		},  */
 	]
 };
 
 export const OVERALL_DETAILS = [
 	{
 		title: 'Years Experience',
-		number: '7',
+		number: '9',
 		icon: 'Portfolio'
 	},
 	{
@@ -199,7 +205,7 @@ export const SKILLS = [
 	},
 	{
 		skill: 'Leadership',
-		percent: '80%'
+		percent: '90%'
 	},
 	{
 		skill: 'GTM',
@@ -224,12 +230,12 @@ export const PERSONAL_INFO = [
 	}, */
 	{
 		title: 'Experience',
-		subTitle: '7 years',
+		subTitle: '9 years',
 		icon: 'Settings'
 	},
 	{
 		title: 'Phone',
-		subTitle: '044 7767 960943',
+		subTitle: '044 7767 960943 | +91 9088 736095',
 		icon: 'Phone'
 	},	
 	{
@@ -245,12 +251,12 @@ export const PERSONAL_INFO = [
 ];
 
 export const ABOUT_ME = {
-	description: 'I\’m an experienced Product Manager based in London. ' + 
-		'I have spent over 7 years building software products including B2B SaaS and B2B2C mobile apps. ' +
-		'I have worked across Fintech, Insurtech and core Data Science domains. ' +
-		'I’ve built multiple AI products and am deeply fascinated by its immense productisation opportunity ' + 
-		'in domains like Insurance, Lending and Wealth Management. ' +
-		'I find my joy in food, written words and London\'s museums. '
+	description: 'I\’m an experienced Product Manager and star-up founder. ' + 
+		'I have spent over 9 years building B2B and B2B2C SaaS products. ' +
+		'I have shipped products in Insurtech, Fintech and core Data Science space. ' +
+		'I’ve built multiple AI products and am deeply fascinated by its immense potential to unlock ' + 
+		'productivity across domains. ' +
+		'I find my joy in food, written words and serendipitous conversations. '
 };
 
 
@@ -258,7 +264,7 @@ export const ABOUT_ME = {
 
 export const CONTACT_DETAILS = [
 	{
-		title: '044 7767 960943',
+		title: '044 7767 960943 | +91 9088 736095',
 		icon: 'Phone'
 	},
 	{
@@ -299,7 +305,7 @@ export const SOCIAL_ICONS = [
 export const HOME_CONTACT = {
 	description: 'Let\'s Build Together',
 	email: 'mkwhomanish@gmail.com',
-	phone: '044 7767 960943'
+	phone: '044 7767 960943 | +91 9088 736095'
 };
 
 /*  BLOG PAGE */
